@@ -130,7 +130,7 @@ int main(int argc, char *const argv[])
     char *file = NULL;
     char *port = DEFAULTS_PORT;
     int optidx, ret, hex_size;
-    char arg;
+    int arg;
     const stc_model_t *stc_model;
     const stc_protocol_t *stc_protocol;
     uint8_t *recv = (uint8_t [255]){};
